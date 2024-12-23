@@ -1,0 +1,12 @@
+The following CSS code snippet demonstrates a common error when using the `calc()` function: 
+
+```css
+.element {
+  width: calc(100% - 10px);
+}
+```
+
+The problem arises when there is a space between the operator and the numeric value within the `calc()` function.  In many cases this leads to the calculation failing and the width not being applied correctly. 
+
+Incorrect: `calc(100% - 10px)`
+Correct: `calc(100% - 10px)`
