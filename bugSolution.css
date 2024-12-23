@@ -1,0 +1,9 @@
+The corrected CSS code snippet is as follows: 
+
+```css
+.element {
+  width: calc(100% - 10px);
+}
+```
+
+By removing the spaces between `-` and `10px`, the calculation works correctly. This illustrates that attention to detail is crucial for proper CSS function usage.
